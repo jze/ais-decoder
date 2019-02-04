@@ -8,6 +8,18 @@ It is just a selective fork of the FreeAIS codebase to include just the AIS mess
 
 ## Usage
 
+Include the library in you Maven project:
+
+```xml
+<depencency>
+   <groupId>de.zedlitz</groupId>
+   <artifactId>ais-decoder</artifactId>
+   <version>0.9.5</version>
+</depencency>
+```
+
+Right now the library is not in Maven's central repository. Therefore, you have to clone this project locally and run `mvn install` on it once.
+
 In the simplest case, a message can be decoded with one line of Java code:
 
 ```java
